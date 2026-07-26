@@ -1,7 +1,25 @@
 aid: drippi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drippi.png
 name: Drippi
-description: Drippi is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Drippi (trydrippi.com) was a New York City-based platform that helped young
+  content creators navigate the complexities of running their creator businesses. The
+  company has been acquired and has closed its service to both current and new customers,
+  directing its community to Instagram (@trydrippi) for future updates. It does not publish
+  a public API, developer portal, or SDKs. NOTE FOR ENRICHMENT — this entity is distinct
+  from the similarly named drippi.ai, a separate, bootstrapped Twitter/X cold-outreach DM
+  automation SaaS (founded 2021 by Alex Penunuri, no venture funding); do not attach
+  drippi.ai's API artifacts to this Bloomberg Beta portfolio profile.
 url: https://raw.githubusercontent.com/api-evangelist/drippi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,20 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: closed
+x-status-note: Acquired and shut down per trydrippi.com closure notice (probed 2026-07-18);
+  no public API surface. Distinct from drippi.ai.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Creator Economy
+- Content Creators
+- Creator Tools
+- New York City
+- Closed
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://www.trydrippi.com/
+- type: Instagram
+  url: https://www.instagram.com/trydrippi
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
