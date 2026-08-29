@@ -32,6 +32,9 @@ description: Drippi (trydrippi.com) was a New York City-based platform that help
   automation SaaS (founded 2021 by Alex Penunuri, no venture funding); do not attach
   drippi.ai's API artifacts to this Bloomberg Beta portfolio profile.
 url: https://raw.githubusercontent.com/api-evangelist/drippi/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It does not publish a public API, developer portal, or SDKs."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
