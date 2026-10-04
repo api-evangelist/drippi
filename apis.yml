@@ -41,7 +41,7 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: closed
+x-status: defunct
 x-status-note: Acquired and shut down per trydrippi.com closure notice (probed 2026-07-18);
   no public API surface. Distinct from drippi.ai.
 specificationVersion: '0.23'
@@ -55,6 +55,7 @@ tags:
 - New York City
 - Closed
 - Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
